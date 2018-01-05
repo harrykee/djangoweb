@@ -1,0 +1,22 @@
+	<!DOCTYPE html>
+	<html>
+	<meta charset='utf-8'>
+	<head>
+		<title>home page</title>
+		{%load static%}
+		<link rel="stylesheet" type="text/css" href="{%static 'home/css/index.css'%}"/>
+		<script type="text/javascript" src="{%static 'wjs/jquery-1.10.2.js'%}"></script>
+		<script type="text/javascript" src="{%static 'wjs/echarts.min.js'%}"></script>
+	</head>
+	<body>
+		<div>
+			<h3>数据展示</h3>
+		</div>
+		<div id="lineChart" style="width:100%;height:400px;"></div>
+		<div id="postChart" style="width:100%;height:400px;"></div>
+		<div id="angleChart" style="width:600px;height:600px;"></div>
+		<script type="text/javascript" src="{%static 'home/js/lineChart.js'%}"></script>
+		<script type="text/javascript" src="{%static 'home/js/postChart.js'%}"></script>
+		<script type="text/javascript" src="{%static 'home/js/angleChart.js'%}"></script>
+	</body>
+</html>

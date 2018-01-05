@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<meta charset='utf-8'>
+	<head>
+		{%load static%}
+	<title>please sign in</title>
+	<link rel ="stylesheet" type="text/css" href ="{% static 'blog/css/login.css'%}"/>
+	<script type="text/javascript" src="{% static 'wjs/jquery-1.10.2.js'%}"></script>
+	<script type="text/javascript" src="{% static 'blog/js/start.js'%}"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			highlightStar(3)
+		});
+	</script>
+	</head>
+	<body>
+		<div class="dd">
+        <div class="tt"></div>
+    	</div>
+    	<img src="{% static 'blog/imgs/headImg.jpg'%}" class="path1">
+		<h1>登陆界面</h1>
+		<div >
+			<img src="{%static 'blog/imgs/normal.png'%}" id='start1' class="starts">
+			<img src="{%static 'blog/imgs/normal.png'%}" id='start2' class="starts">
+			<img src="{%static 'blog/imgs/normal.png'%}" id='start3' class="starts">
+			<img src="{%static 'blog/imgs/normal.png'%}" id='start4' class="starts">
+			<img src="{%static 'blog/imgs/normal.png'%}" id='start5' class="starts">
+		</div>
+	</body>
+</html>

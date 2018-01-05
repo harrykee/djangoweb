@@ -1,0 +1,26 @@
+.dd {
+    height: 200px;
+    width: 300px;
+    background-image: url("../imgs/headImg.jpg")
+}
+
+.tt {
+    width: 0;
+    height: 0;
+    border-top: 200px solid #ffffff;
+    border-right: 200px solid transparent;
+}
+
+.path1 {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.starts {
+    height: 30px;
+    width: 30px;
+}
