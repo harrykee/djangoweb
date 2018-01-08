@@ -25,7 +25,7 @@ SECRET_KEY = 'qzd6v!=%vt-@&9rhstdfgf#7j$x5(4m@b(rg8r+0r3-bsk2ajq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['119.29.62.85','www.wh14.club']
+ALLOWED_HOSTS = ['']
 
 
 # Application definition
