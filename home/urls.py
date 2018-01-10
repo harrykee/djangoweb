@@ -8,6 +8,8 @@ urlpatterns = [
     path('chart/', views.chart,name='chart'),
     path('rate/', views.rate,name='rate'),
     path('column/', views.column,name='column'),
-    # path('tttt/', chapi.tttt,name='tttt'),
+    path('cloud/', views.cloud,name='cloud'),
+    path('borrow/', views.borrow,name='borrow'),
+    # path('apite/', chapi.apite,name='apite'),
 ]
 

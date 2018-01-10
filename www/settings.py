@@ -25,7 +25,7 @@ SECRET_KEY = 'qzd6v!=%vt-@&9rhstdfgf#7j$x5(4m@b(rg8r+0r3-bsk2ajq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['119.29.62.85','www.wh14.club']
 
 
 # Application definition
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'website_db',
         'USER': 'website',
         'PASSWORD': 'website',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }

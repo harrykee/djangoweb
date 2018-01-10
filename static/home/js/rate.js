@@ -1,4 +1,19 @@
 $(document).ready(function() {
+    $('#column').click(function () {
+                window.location.href = "../column";
+            });
+    $('#chart').click(function () {
+        window.location.href = "../chart";
+    });
+    $('#index').click(function () {
+        window.location.href = "../";
+    });
+    $('#cloud').click(function () {
+        window.location.href = "../cloud";
+    });
+    $('#borrow').click(function() {
+        window.location.href = "../borrow";
+    });
     $.ajax({
         url: "../line",
         dataType: "JSON",

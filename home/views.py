@@ -12,3 +12,9 @@ def rate(request):
 def column(request):
     return render(request,'home/column.html')
 
+def cloud(request):
+    return render(request,'home/cloud.html')
+
+def borrow(request):
+    return render(request,'home/borrow.html')
+

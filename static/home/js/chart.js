@@ -1,18 +1,36 @@
 $(document).ready(function() {
+    $('#column').click(function() {
+        window.location.href = "../column";
+    });
+    $('#rate').click(function() {
+        window.location.href = "../rate";
+    });
+    $('#index').click(function() {
+        window.location.href = "../";
+    });
+    $('#cloud').click(function() {
+        window.location.href = "../cloud";
+    });
+    $('#borrow').click(function() {
+        window.location.href = "../borrow";
+    });
     $.ajax({
         url: "../line",
         dataType: "JSON",
         async: false,
-        data:{ac:'aaa'},
-        success: function(data) {            
-            var datalist = data
+        data: {
+            ac: 'aaa'
+        },
+        success: function(data) {
+            var datalist = data.prelist
+            var ratedata = data.ratelist
             var angleChart = echarts.init(document.getElementById('angleChart'));
+            var rateChart = echarts.init(document.getElementById('rateChart'));
             var option = {
                 backgroundColor: '#ddf',
 
                 title: {
                     text: '有超过30本书的出版社情况',
-                    left: 'center',
                     top: 20,
                     textStyle: {
                         color: '#ccc'
@@ -73,7 +91,37 @@ $(document).ready(function() {
                     }
                 }]
             };
-            angleChart.setOption(option)
+            angleChart.setOption(option);
+
+            var rateoption = {
+                title: {
+                    text: '不同评分的数量统计情况',
+                    top: 20,
+                    textStyle: {
+                        color: '#ccc'
+                    }
+                },
+                tooltip: {
+                    trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                },
+                series: [{
+                    name: '比例情况',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '50%'],
+                    data: ratedata,
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }]
+            };
+            rateChart.setOption(rateoption);
+
         }
     });
 });

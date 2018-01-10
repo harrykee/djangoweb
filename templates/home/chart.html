@@ -5,14 +5,25 @@
     <title>数据展示</title>
     {%load static%}
 </head>
-<link rel="stylesheet" type="text/css" href="{%static 'home/css/index.css'%}"/>
+<link rel="stylesheet" type="text/css" href="{%static 'home/css/plot.css'%}"/>
 <script type="text/javascript" src="{%static 'wjs/jquery-1.10.2.js'%}"></script>
 <script type="text/javascript" src="{%static 'wjs/echarts.min.js'%}"></script>
 <script type="text/javascript" src="{%static 'home/js/chart.js'%}"></script>
 
 <body>
-    <div id="mydic" style="font-size:40px;"></div>
-    <div id="angleChart" style="height:600px;width:700px;"></div>
+	<div style="height:auto;width: 100%;display: flex;flex-direction: row;">
+		<div id="angleChart" style="height:600px;width:700px;"></div>
+    	<div id="rateChart" style="height:600px;width:600px;"></div>
+	</div>
+     <div  class="linee">
+     	<div id="index" class='clikbtn'>评分人数和评分排序</div>
+		<div id="rate" class='clikbtn' >评分人数和分数情况</div>
+		<div id="column" class='clikbtn'>出版年份情况图表</div>
+		<div id="chart" class='clikbtn' style="background-color: #334499;" >出版社和评分情况</div>
+		<div id="cloud" class='clikbtn'>作者情况</div>
+		<div id="borrow" class='clikbtn' >图书借阅情况</div>
+	</div>
+
 </body>
 
 </html>
