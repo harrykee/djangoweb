@@ -94,10 +94,10 @@ def cloud():
 
 def borrow():
     cursor=connection.cursor()
-    cursor.execute("select sum(sumfre) as value,city as name from books_pub group by city having sum(sumfre)>500")
+    cursor.execute("select sum(value*1) as value,city as name from books_pub group by city")
     rows = dictfetchall(cursor)
     cursor=connection.cursor()
-    cursor.execute("select sum(sumfre) as value,city,publisher from books_pub group by city,publisher having sum(sumfre)>500;")
+    cursor.execute("select * from books_pub")
     rows1 = dictfetchall(cursor)
 
     result="{\"citylist\":["

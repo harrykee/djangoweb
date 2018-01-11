@@ -28207,3 +28207,476 @@ gracefully (RE)spawned uWSGI master process (pid: 1992)
 spawned uWSGI worker 1 (pid: 31574, cores: 2)
 spawned uWSGI worker 2 (pid: 31575, cores: 2)
 Python auto-reloader enabled
+[pid: 31574|app: 0|req: 1/1] 58.23.36.251 () {48 vars in 874 bytes} [Wed Jan 10 10:25:20 2018] GET /rate/ => generated 913 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 2/2] 58.23.36.251 () {48 vars in 855 bytes} [Wed Jan 10 10:25:27 2018] GET /line?ac=bbb => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 118 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 1/3] 58.23.36.251 () {48 vars in 857 bytes} [Wed Jan 10 10:25:27 2018] GET /line/?ac=bbb => generated 66800 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 31575|app: 0|req: 2/4] 58.23.36.251 () {46 vars in 810 bytes} [Wed Jan 10 10:25:29 2018] GET /favicon.ico => generated 3236 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 3/5] 58.23.36.251 () {44 vars in 830 bytes} [Wed Jan 10 10:25:30 2018] GET /borrow/ => generated 1041 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 4/6] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 10:25:31 2018] GET /line/?ac=fff => generated 1799 bytes in 494 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 5/7] 112.65.193.15 () {40 vars in 688 bytes} [Wed Jan 10 10:26:27 2018] GET /line?ac=bbb => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 6/8] 58.23.36.251 () {42 vars in 775 bytes} [Wed Jan 10 10:31:51 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 31574|app: 0|req: 7/9] 58.23.36.251 () {42 vars in 752 bytes} [Wed Jan 10 10:31:52 2018] GET /favicon.ico => generated 3236 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 8/10] 58.23.36.251 () {44 vars in 811 bytes} [Wed Jan 10 10:31:52 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 3/11] 58.23.36.251 () {44 vars in 799 bytes} [Wed Jan 10 10:31:53 2018] GET /line/?ac=ddd => generated 2112 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 9/12] 58.23.36.251 () {44 vars in 821 bytes} [Wed Jan 10 10:32:09 2018] GET /rate/ => generated 913 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 4/13] 58.23.36.251 () {44 vars in 804 bytes} [Wed Jan 10 10:32:10 2018] GET /line/?ac=bbb => generated 66800 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 10/14] 58.23.36.251 () {44 vars in 830 bytes} [Wed Jan 10 10:32:23 2018] GET /column/ => generated 918 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 5/15] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 10:32:23 2018] GET /line/?ac=ccc => generated 1253 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 11/16] 58.23.36.251 () {44 vars in 830 bytes} [Wed Jan 10 10:32:35 2018] GET /chart/ => generated 1064 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 6/17] 58.23.36.251 () {44 vars in 805 bytes} [Wed Jan 10 10:32:35 2018] GET /line/?ac=aaa => generated 1602 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 12/18] 58.23.36.251 () {44 vars in 829 bytes} [Wed Jan 10 10:32:49 2018] GET /cloud/ => generated 1025 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 7/19] 58.23.36.251 () {44 vars in 805 bytes} [Wed Jan 10 10:32:50 2018] GET /line/?ac=eee => generated 92848 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 13/20] 58.23.36.251 () {44 vars in 831 bytes} [Wed Jan 10 10:33:13 2018] GET /borrow/ => generated 1041 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 8/21] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 10:33:14 2018] GET /line/?ac=fff => generated 1799 bytes in 489 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 14/22] 223.167.152.14 () {40 vars in 651 bytes} [Wed Jan 10 10:33:23 2018] GET /column => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 15/23] 101.226.65.107 () {40 vars in 636 bytes} [Wed Jan 10 10:35:39 2018] GET /column => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 16/24] 101.226.65.107 () {40 vars in 639 bytes} [Wed Jan 10 10:35:40 2018] GET /column/ => generated 918 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 17/25] 178.158.218.60 () {38 vars in 525 bytes} [Wed Jan 10 10:48:54 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '-c'. You may need to add '-c' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 18/26] 46.243.119.39 () {32 vars in 1773 bytes} [Wed Jan 10 11:17:02 2018] POST //%63%67%69%2D%62%69%6E/%70%68%70?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%6E => generated 62291 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 19/27] 58.23.36.251 () {42 vars in 776 bytes} [Wed Jan 10 11:49:41 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 31575|app: 0|req: 9/28] 58.23.36.251 () {42 vars in 753 bytes} [Wed Jan 10 11:49:42 2018] GET /favicon.ico => generated 3236 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 10/29] 58.23.36.251 () {44 vars in 812 bytes} [Wed Jan 10 11:49:43 2018] GET / => generated 1304 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 20/30] 58.23.36.251 () {44 vars in 800 bytes} [Wed Jan 10 11:49:43 2018] GET /line/?ac=ddd => generated 2112 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 21/31] 58.23.36.251 () {44 vars in 822 bytes} [Wed Jan 10 11:49:51 2018] GET /rate/ => generated 913 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 11/32] 58.23.36.251 () {44 vars in 805 bytes} [Wed Jan 10 11:49:51 2018] GET /line/?ac=bbb => generated 66800 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 22/33] 58.23.36.251 () {44 vars in 831 bytes} [Wed Jan 10 11:49:57 2018] GET /column/ => generated 918 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 12/34] 58.23.36.251 () {44 vars in 807 bytes} [Wed Jan 10 11:49:57 2018] GET /line/?ac=ccc => generated 1253 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 23/35] 58.23.36.251 () {44 vars in 831 bytes} [Wed Jan 10 11:50:47 2018] GET /chart/ => generated 1064 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 13/36] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 11:50:48 2018] GET /line/?ac=aaa => generated 1602 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 14/37] 58.23.36.251 () {44 vars in 830 bytes} [Wed Jan 10 11:51:05 2018] GET /cloud/ => generated 1025 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 24/38] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 11:51:06 2018] GET /line/?ac=eee => generated 92848 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 25/39] 58.23.36.251 () {44 vars in 818 bytes} [Wed Jan 10 11:51:55 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 26/40] 58.23.36.251 () {44 vars in 812 bytes} [Wed Jan 10 11:51:56 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 27/41] 58.23.36.251 () {44 vars in 800 bytes} [Wed Jan 10 11:51:56 2018] GET /line/?ac=ddd => generated 2112 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 28/42] 58.23.36.251 () {44 vars in 822 bytes} [Wed Jan 10 11:52:07 2018] GET /rate/ => generated 913 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 15/43] 58.23.36.251 () {44 vars in 805 bytes} [Wed Jan 10 11:52:07 2018] GET /line/?ac=bbb => generated 66800 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 29/44] 58.23.36.251 () {44 vars in 831 bytes} [Wed Jan 10 11:54:05 2018] GET /column/ => generated 918 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 16/45] 58.23.36.251 () {44 vars in 807 bytes} [Wed Jan 10 11:54:06 2018] GET /line/?ac=ccc => generated 1253 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 30/46] 58.23.36.251 () {44 vars in 831 bytes} [Wed Jan 10 11:54:09 2018] GET /chart/ => generated 1064 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 17/47] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 11:54:09 2018] GET /line/?ac=aaa => generated 1602 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 31/48] 58.23.36.251 () {44 vars in 830 bytes} [Wed Jan 10 11:54:12 2018] GET /cloud/ => generated 1025 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 18/49] 58.23.36.251 () {44 vars in 806 bytes} [Wed Jan 10 11:54:12 2018] GET /line/?ac=eee => generated 92848 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 32/50] 58.23.36.251 () {44 vars in 832 bytes} [Wed Jan 10 11:54:15 2018] GET /borrow/ => generated 1041 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 19/51] 58.23.36.251 () {44 vars in 807 bytes} [Wed Jan 10 11:54:15 2018] GET /line/?ac=fff => generated 1799 bytes in 494 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31575|app: 0|req: 20/52] 185.100.87.246 () {26 vars in 278 bytes} [Wed Jan 10 11:57:22 2018] GET / => generated 53933 bytes in 26 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 33/53] 185.100.87.246 () {26 vars in 278 bytes} [Wed Jan 10 11:59:18 2018] GET / => generated 53933 bytes in 26 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 34/54] 185.100.87.246 () {28 vars in 303 bytes} [Wed Jan 10 11:59:19 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 21/55] 183.57.53.222 () {38 vars in 619 bytes} [Wed Jan 10 11:59:19 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 22/56] 185.100.87.246 () {32 vars in 449 bytes} [Wed Jan 10 11:59:20 2018] HEAD / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Not Found: /manager/html
+[pid: 31574|app: 0|req: 35/57] 183.131.83.229 () {34 vars in 503 bytes} [Wed Jan 10 12:58:01 2018] GET /manager/html => generated 3242 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 23/58] 163.177.90.152 () {38 vars in 630 bytes} [Wed Jan 10 13:02:06 2018] GET /chart => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 36/59] 163.177.90.152 () {40 vars in 673 bytes} [Wed Jan 10 13:02:06 2018] GET /chart/ => generated 1064 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 37/60] 139.162.108.53 () {32 vars in 456 bytes} [Wed Jan 10 13:10:04 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'testp3.pospr.waw.pl'. You may need to add 'testp3.pospr.waw.pl' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 38/61] 91.196.50.33 () {38 vars in 615 bytes} [Wed Jan 10 13:30:28 2018] GET /testproxy.php => generated 55166 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view home.chapi.chart didn't return an HttpResponse object. It returned None instead.
+[pid: 31574|app: 0|req: 39/62] 112.90.82.218 () {38 vars in 646 bytes} [Wed Jan 10 13:44:50 2018] GET /line/?ac%3Dddd => generated 48461 bytes in 25 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /wwwroot.zip
+[pid: 31574|app: 0|req: 40/63] 198.13.45.25 () {30 vars in 425 bytes} [Wed Jan 10 14:53:52 2018] HEAD /wwwroot.zip => generated 3237 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 41/64] 178.73.215.171 () {28 vars in 295 bytes} [Wed Jan 10 15:15:52 2018] GET / => generated 54054 bytes in 25 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 42/65] 178.73.215.171 () {28 vars in 296 bytes} [Wed Jan 10 15:15:52 2018] GET / => generated 54055 bytes in 25 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 43/66] 178.73.215.171 () {28 vars in 295 bytes} [Wed Jan 10 15:15:54 2018] GET / => generated 54054 bytes in 26 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 44/67] 178.73.215.171 () {28 vars in 296 bytes} [Wed Jan 10 15:15:58 2018] GET / => generated 54055 bytes in 25 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view home.chapi.chart didn't return an HttpResponse object. It returned None instead.
+[pid: 31574|app: 0|req: 45/68] 112.90.82.236 () {38 vars in 650 bytes} [Wed Jan 10 16:02:37 2018] GET /line/?ac%253Dddd => generated 48475 bytes in 25 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 46/69] 183.129.160.229 () {36 vars in 574 bytes} [Wed Jan 10 17:13:39 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '58.87.73.104:80'. You may need to add '58.87.73.104' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 47/70] 47.92.2.1 () {32 vars in 357 bytes} [Wed Jan 10 17:24:37 2018] GET / => generated 54394 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 48/71] 203.24.188.242 () {36 vars in 942 bytes} [Wed Jan 10 19:46:12 2018] POST /cgi-bin/php-cgi?-d+allow_url_include=on+-d+safe_mode=off+-d+suhosin.simulation=on+-d+disable_functions=%22%22+-d+max_execution_time=0+-d+open_basedir=none+-d+auto_prepend_file=php://input+-d+cgi.force_redirect=0+-d+cgi.redirect_status_env=0+-n => generated 58455 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 49/72] 113.108.10.5 () {38 vars in 618 bytes} [Wed Jan 10 19:54:30 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 50/73] 203.24.188.242 () {36 vars in 934 bytes} [Wed Jan 10 21:17:57 2018] POST /phppath/php?-d+allow_url_include=on+-d+safe_mode=off+-d+suhosin.simulation=on+-d+disable_functions=%22%22+-d+max_execution_time=0+-d+open_basedir=none+-d+auto_prepend_file=php://input+-d+cgi.force_redirect=0+-d+cgi.redirect_status_env=0+-n => generated 58407 bytes in 26 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 51/74] 62.210.152.47 () {40 vars in 475 bytes} [Wed Jan 10 21:19:14 2018] POST /RPC2 => generated 54948 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 52/75] 203.24.188.242 () {36 vars in 936 bytes} [Wed Jan 10 22:05:50 2018] POST /cgi-bin/php5?-d+allow_url_include=on+-d+safe_mode=off+-d+suhosin.simulation=on+-d+disable_functions=%22%22+-d+max_execution_time=0+-d+open_basedir=none+-d+auto_prepend_file=php://input+-d+cgi.force_redirect=0+-d+cgi.redirect_status_env=0+-n => generated 58419 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 53/76] 60.191.38.78 () {36 vars in 571 bytes} [Wed Jan 10 23:46:59 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 54/77] 141.212.122.16 () {34 vars in 389 bytes} [Thu Jan 11 01:09:33 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '58.87.104.160:80'. You may need to add '58.87.104.160' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 55/78] 59.110.6.177 () {32 vars in 361 bytes} [Thu Jan 11 01:26:15 2018] GET / => generated 54412 bytes in 254 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Not Found: /wp-includes/js/comment-reply.min.js
+[pid: 31574|app: 0|req: 56/79] 101.226.35.225 () {44 vars in 767 bytes} [Thu Jan 11 01:49:24 2018] GET /wp-includes/js/comment-reply.min.js => generated 3308 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skins/vector/csshover.htc
+[pid: 31574|app: 0|req: 57/80] 101.226.35.225 () {44 vars in 747 bytes} [Thu Jan 11 01:49:25 2018] GET /skins/vector/csshover.htc => generated 3278 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /misc/states.js
+[pid: 31575|app: 0|req: 24/81] 101.226.35.225 () {44 vars in 725 bytes} [Thu Jan 11 01:49:25 2018] GET /misc/states.js => generated 3245 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/md5.js
+[pid: 31575|app: 0|req: 25/82] 101.226.35.225 () {44 vars in 731 bytes} [Thu Jan 11 01:49:25 2018] GET /include/js/md5.js => generated 3254 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /include/js/common.js
+[pid: 31574|app: 0|req: 58/83] 101.226.35.225 () {44 vars in 737 bytes} [Thu Jan 11 01:49:26 2018] GET /include/js/common.js => generated 3263 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /include/js/ajax.js
+[pid: 31574|app: 0|req: 59/84] 101.226.35.225 () {44 vars in 733 bytes} [Thu Jan 11 01:49:26 2018] GET /include/js/ajax.js => generated 3257 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /res/js/dev/pages/common/global.js
+[pid: 31575|app: 0|req: 26/85] 101.226.35.225 () {44 vars in 763 bytes} [Thu Jan 11 01:49:26 2018] GET /res/js/dev/pages/common/global.js => generated 3302 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/wind_editor.js
+[pid: 31575|app: 0|req: 27/86] 101.226.35.225 () {44 vars in 731 bytes} [Thu Jan 11 01:49:26 2018] GET /js/wind_editor.js => generated 3254 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /styles/prosilver/template/forum_fn.js
+[pid: 31574|app: 0|req: 60/87] 101.226.35.225 () {44 vars in 771 bytes} [Thu Jan 11 01:49:26 2018] GET /styles/prosilver/template/forum_fn.js => generated 3314 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /styles/prosilver/template/styleswitcher.js
+[pid: 31574|app: 0|req: 61/88] 101.226.35.225 () {44 vars in 781 bytes} [Thu Jan 11 01:49:27 2018] GET /styles/prosilver/template/styleswitcher.js => generated 3329 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /editor/ubb/uploader.js
+[pid: 31575|app: 0|req: 28/89] 101.226.35.225 () {44 vars in 741 bytes} [Thu Jan 11 01:49:27 2018] GET /editor/ubb/uploader.js => generated 3269 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /template/default/style.css
+[pid: 31575|app: 0|req: 29/90] 101.226.35.225 () {44 vars in 749 bytes} [Thu Jan 11 01:49:27 2018] GET /template/default/style.css => generated 3281 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /images/js/common.js
+[pid: 31574|app: 0|req: 62/91] 101.226.35.225 () {44 vars in 735 bytes} [Thu Jan 11 01:49:27 2018] GET /images/js/common.js => generated 3260 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /templets/style/dede.css
+[pid: 31574|app: 0|req: 63/92] 101.226.35.225 () {44 vars in 743 bytes} [Thu Jan 11 01:49:28 2018] GET /templets/style/dede.css => generated 3272 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /include/dedeajax2.js
+[pid: 31575|app: 0|req: 30/93] 101.226.35.225 () {44 vars in 737 bytes} [Thu Jan 11 01:49:28 2018] GET /include/dedeajax2.js => generated 3263 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /images/default/inc.js
+[pid: 31575|app: 0|req: 31/94] 101.226.35.225 () {44 vars in 739 bytes} [Thu Jan 11 01:49:28 2018] GET /images/default/inc.js => generated 3266 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /js/lang/core/zh-cn.js
+[pid: 31574|app: 0|req: 64/95] 101.226.35.225 () {44 vars in 739 bytes} [Thu Jan 11 01:49:28 2018] GET /js/lang/core/zh-cn.js => generated 3266 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/lang/cms/zh-cn.js
+[pid: 31574|app: 0|req: 65/96] 101.226.35.225 () {44 vars in 737 bytes} [Thu Jan 11 01:49:28 2018] GET /js/lang/cms/zh-cn.js => generated 3263 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /d/js/acmsd/ecms_dialog.js
+[pid: 31575|app: 0|req: 32/97] 101.226.35.225 () {44 vars in 747 bytes} [Thu Jan 11 01:49:29 2018] GET /d/js/acmsd/ecms_dialog.js => generated 3278 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skin/default/js/tabs.js
+[pid: 31575|app: 0|req: 33/98] 101.226.35.225 () {44 vars in 743 bytes} [Thu Jan 11 01:49:29 2018] GET /skin/default/js/tabs.js => generated 3272 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /media/system/js/tab.js
+[pid: 31574|app: 0|req: 66/99] 101.226.35.225 () {44 vars in 741 bytes} [Thu Jan 11 01:49:29 2018] GET /media/system/js/tab.js => generated 3269 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /media/system/css/mootree.css
+[pid: 31574|app: 0|req: 67/100] 101.226.35.225 () {44 vars in 753 bytes} [Thu Jan 11 01:49:29 2018] GET /media/system/css/mootree.css => generated 3287 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /lang/zh/front.js
+[pid: 31575|app: 0|req: 34/101] 101.226.35.225 () {44 vars in 729 bytes} [Thu Jan 11 01:49:29 2018] GET /lang/zh/front.js => generated 3251 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /style/default/content.css
+[pid: 31575|app: 0|req: 35/102] 101.226.35.225 () {44 vars in 747 bytes} [Thu Jan 11 01:49:30 2018] GET /style/default/content.css => generated 3278 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /lang/zh/edit.js
+[pid: 31574|app: 0|req: 68/103] 101.226.35.225 () {44 vars in 727 bytes} [Thu Jan 11 01:49:30 2018] GET /lang/zh/edit.js => generated 3248 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /rockmongo/
+[pid: 31574|app: 0|req: 69/104] 101.226.35.225 () {44 vars in 717 bytes} [Thu Jan 11 01:49:30 2018] GET /rockmongo/ => generated 3233 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /server-status
+[pid: 31575|app: 0|req: 36/105] 101.226.35.225 () {44 vars in 723 bytes} [Thu Jan 11 01:49:30 2018] GET /server-status => generated 3242 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /ueditor.all.js
+[pid: 31575|app: 0|req: 37/106] 101.226.35.225 () {44 vars in 725 bytes} [Thu Jan 11 01:49:30 2018] GET /ueditor.all.js => generated 3245 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /wikilib.d/PmWiki.ChangeLog
+[pid: 31574|app: 0|req: 70/107] 101.226.35.225 () {44 vars in 749 bytes} [Thu Jan 11 01:49:31 2018] GET /wikilib.d/PmWiki.ChangeLog => generated 3281 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /4e5e5d7364f443e28fbf0d3ae744a59a
+[pid: 31574|app: 0|req: 71/108] 101.226.35.225 () {44 vars in 761 bytes} [Thu Jan 11 01:49:31 2018] GET /4e5e5d7364f443e28fbf0d3ae744a59a => generated 3299 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /jenkins/
+[pid: 31575|app: 0|req: 38/109] 101.226.35.225 () {44 vars in 713 bytes} [Thu Jan 11 01:49:31 2018] GET /jenkins/ => generated 3227 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /console/login/LoginForm.jsp
+[pid: 31575|app: 0|req: 39/110] 101.226.35.225 () {44 vars in 751 bytes} [Thu Jan 11 01:49:31 2018] GET /console/login/LoginForm.jsp => generated 3284 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /solr/
+[pid: 31574|app: 0|req: 72/111] 101.226.35.225 () {44 vars in 707 bytes} [Thu Jan 11 01:49:31 2018] GET /solr/ => generated 3218 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 73/112] 101.226.35.225 () {44 vars in 697 bytes} [Thu Jan 11 01:49:32 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Not Found: /invoker/JMXInvokerServlet
+[pid: 31574|app: 0|req: 74/113] 203.24.188.242 () {34 vars in 421 bytes} [Thu Jan 11 01:54:23 2018] GET /invoker/JMXInvokerServlet => generated 3278 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 75/114] 58.23.36.251 () {42 vars in 776 bytes} [Thu Jan 11 02:17:46 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 31574|app: 0|req: 76/115] 58.23.36.251 () {42 vars in 753 bytes} [Thu Jan 11 02:17:47 2018] GET /favicon.ico => generated 3236 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 77/116] 58.23.36.251 () {44 vars in 812 bytes} [Thu Jan 11 02:17:47 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 40/117] 58.23.36.251 () {44 vars in 800 bytes} [Thu Jan 11 02:17:47 2018] GET /line/?ac=ddd => generated 2112 bytes in 176 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 41/118] 58.23.36.251 () {44 vars in 822 bytes} [Thu Jan 11 02:17:56 2018] GET /rate/ => generated 913 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 42/119] 58.23.36.251 () {44 vars in 805 bytes} [Thu Jan 11 02:17:56 2018] GET /line/?ac=bbb => generated 66800 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 43/120] 58.23.36.251 () {44 vars in 831 bytes} [Thu Jan 11 02:18:00 2018] GET /column/ => generated 918 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 44/121] 58.23.36.251 () {44 vars in 807 bytes} [Thu Jan 11 02:18:00 2018] GET /line/?ac=ccc => generated 1253 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 45/122] 58.23.36.251 () {44 vars in 831 bytes} [Thu Jan 11 02:18:04 2018] GET /chart/ => generated 1064 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 46/123] 58.23.36.251 () {44 vars in 806 bytes} [Thu Jan 11 02:18:04 2018] GET /line/?ac=aaa => generated 1602 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 47/124] 58.23.36.251 () {44 vars in 830 bytes} [Thu Jan 11 02:18:06 2018] GET /cloud/ => generated 1025 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 78/125] 58.23.36.251 () {44 vars in 806 bytes} [Thu Jan 11 02:18:07 2018] GET /line/?ac=eee => generated 92848 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 79/126] 58.23.36.251 () {44 vars in 832 bytes} [Thu Jan 11 02:18:24 2018] GET /borrow/ => generated 1041 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 80/127] 58.23.36.251 () {44 vars in 807 bytes} [Thu Jan 11 02:18:24 2018] GET /line/?ac=fff => generated 1799 bytes in 491 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 81/128] 223.167.152.14 () {40 vars in 671 bytes} [Thu Jan 11 02:18:56 2018] GET /rate => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 111 bytes (1 switches on core 1)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view home.chapi.chart didn't return an HttpResponse object. It returned None instead.
+[pid: 31574|app: 0|req: 82/129] 112.65.193.14 () {40 vars in 663 bytes} [Thu Jan 11 02:19:00 2018] GET /line/?ac=ccc => generated 48564 bytes in 52 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view home.chapi.chart didn't return an HttpResponse object. It returned None instead.
+[pid: 31575|app: 0|req: 48/130] 223.167.152.13 () {40 vars in 600 bytes} [Thu Jan 11 02:19:04 2018] GET /chart => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 83/131] 223.167.152.14 () {40 vars in 663 bytes} [Thu Jan 11 02:19:04 2018] GET /line/?ac=aaa => generated 48564 bytes in 29 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 49/132] 112.65.193.14 () {40 vars in 716 bytes} [Thu Jan 11 02:19:24 2018] GET /borrow => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 1)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view home.chapi.chart didn't return an HttpResponse object. It returned None instead.
+[pid: 31575|app: 0|req: 50/133] 101.226.65.107 () {40 vars in 693 bytes} [Thu Jan 11 02:21:22 2018] GET /line/?ac=ccc => generated 48603 bytes in 38 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 84/134] 101.226.65.107 () {40 vars in 600 bytes} [Thu Jan 11 02:21:27 2018] GET /chart => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 51/135] 101.226.65.107 () {40 vars in 600 bytes} [Thu Jan 11 02:21:28 2018] GET /chart/ => generated 1064 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 85/136] 101.226.65.107 () {40 vars in 652 bytes} [Thu Jan 11 02:21:47 2018] GET /borrow => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 52/137] 101.226.65.107 () {40 vars in 654 bytes} [Thu Jan 11 02:21:47 2018] GET /borrow/ => generated 1041 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 86/138] 58.23.36.251 () {44 vars in 829 bytes} [Thu Jan 11 02:22:55 2018] GET /rate/ => generated 913 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 87/139] 58.23.36.251 () {44 vars in 805 bytes} [Thu Jan 11 02:22:55 2018] GET /line/?ac=bbb => generated 66800 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 1)
+Not Found: /cgi/common.cgi
+[pid: 31574|app: 0|req: 88/140] 177.82.245.19 () {32 vars in 378 bytes} [Thu Jan 11 02:56:37 2018] GET /cgi/common.cgi => generated 3245 bytes in 36 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /stssys.htm
+[pid: 31574|app: 0|req: 89/141] 177.82.245.19 () {32 vars in 370 bytes} [Thu Jan 11 02:56:41 2018] GET /stssys.htm => generated 3233 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 90/142] 177.82.245.19 () {32 vars in 350 bytes} [Thu Jan 11 02:56:44 2018] GET / => generated 1304 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /command.php
+[pid: 31574|app: 0|req: 91/143] 177.82.245.19 () {36 vars in 489 bytes} [Thu Jan 11 02:56:48 2018] POST /command.php => generated 3237 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 31574|app: 0|req: 92/144] 113.108.10.5 () {38 vars in 630 bytes} [Thu Jan 11 04:28:54 2018] GET /column => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+[pid: 31575|app: 0|req: 53/145] 113.108.10.5 () {40 vars in 674 bytes} [Thu Jan 11 04:28:54 2018] GET /column/ => generated 918 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 31574|app: 0|req: 93/146] 101.226.68.215 () {38 vars in 630 bytes} [Thu Jan 11 04:50:06 2018] GET /cloud => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 31575|app: 0|req: 54/147] 101.226.68.215 () {40 vars in 673 bytes} [Thu Jan 11 04:50:06 2018] GET /cloud/ => generated 1025 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'denypagetests.netsweeper.com'. You may need to add 'denypagetests.netsweeper.com' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 94/148] 169.229.3.90 () {32 vars in 399 bytes} [Thu Jan 11 05:59:45 2018] GET /category/catno/32 => generated 54804 bytes in 27 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+Not Found: /stssys.htm
+[pid: 31574|app: 0|req: 95/149] 119.147.207.152 () {38 vars in 641 bytes} [Thu Jan 11 06:15:35 2018] GET /stssys.htm => generated 3233 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /cgi/common.cgi
+[pid: 31574|app: 0|req: 96/150] 183.57.53.197 () {38 vars in 647 bytes} [Thu Jan 11 06:40:29 2018] GET /cgi/common.cgi => generated 3245 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'testp3.pospr.waw.pl'. You may need to add 'testp3.pospr.waw.pl' to ALLOWED_HOSTS.
+[pid: 31574|app: 0|req: 97/151] 91.196.50.33 () {38 vars in 615 bytes} [Thu Jan 11 07:34:05 2018] GET /testproxy.php => generated 55166 bytes in 25 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-python-reloader] module/file ./home/chapi.py has been modified
+[uwsgi-python-reloader] module/file ./home/chapi.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 31574)...
+Gracefully killing worker 2 (pid: 31575)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /var/www
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from www.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 09:07:41 2018] ***
+compiled with version: 5.4.0 20160609 on 30 December 2017 19:29:21
+os: Linux-4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017
+nodename: VM-0-2-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /var/www
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /var/www
+your processes number limit is 3301
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1138c50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 249216 bytes (243 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x1138c50 pid: 1992 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1992)
+spawned uWSGI worker 1 (pid: 1012, cores: 2)
+spawned uWSGI worker 2 (pid: 1013, cores: 2)
+Python auto-reloader enabled
+[pid: 1012|app: 0|req: 1/1] 58.23.36.251 () {42 vars in 776 bytes} [Thu Jan 11 09:07:50 2018] GET / => generated 1304 bytes in 414 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1012|app: 0|req: 2/2] 58.23.36.251 () {42 vars in 753 bytes} [Thu Jan 11 09:07:51 2018] GET /favicon.ico => generated 3236 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 1012|app: 0|req: 3/3] 58.23.36.251 () {44 vars in 812 bytes} [Thu Jan 11 09:07:52 2018] GET / => generated 1304 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1013|app: 0|req: 1/4] 58.23.36.251 () {44 vars in 800 bytes} [Thu Jan 11 09:07:52 2018] GET /line/?ac=ddd => generated 2112 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1013|app: 0|req: 2/5] 58.23.36.251 () {44 vars in 826 bytes} [Thu Jan 11 09:07:54 2018] GET /borrow/ => generated 1041 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.OperationalError: (1140, "In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'books_pub.city'; this is incompatible with sql_mode=only_full_group_by")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./home/chapi.py", line 20, in chart
+    return borrow()
+  File "./home/chapi.py", line 97, in borrow
+    cursor.execute("select sum(value*1) as value,city as name from books_pub")
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1140, "In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'books_pub.city'; this is incompatible with sql_mode=only_full_group_by")
+[pid: 1012|app: 0|req: 4/6] 58.23.36.251 () {44 vars in 807 bytes} [Thu Jan 11 09:07:55 2018] GET /line/?ac=fff => generated 15240 bytes in 160 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[pid: 1012|app: 0|req: 5/7] 58.23.36.251 () {44 vars in 821 bytes} [Thu Jan 11 09:08:06 2018] GET /borrow/ => generated 1041 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.OperationalError: (1140, "In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'books_pub.city'; this is incompatible with sql_mode=only_full_group_by")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./home/chapi.py", line 20, in chart
+    return borrow()
+  File "./home/chapi.py", line 97, in borrow
+    cursor.execute("select sum(value*1) as value,city as name from books_pub")
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1140, "In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'books_pub.city'; this is incompatible with sql_mode=only_full_group_by")
+[pid: 1013|app: 0|req: 3/8] 58.23.36.251 () {44 vars in 807 bytes} [Thu Jan 11 09:08:06 2018] GET /line/?ac=fff => generated 15240 bytes in 19 msecs (HTTP/1.1 500) 4 headers in 145 bytes (1 switches on core 0)
+[uwsgi-python-reloader] module/file ./home/chapi.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1012)...
+Gracefully killing worker 2 (pid: 1013)...
+[uwsgi-python-reloader] module/file ./home/chapi.py has been modified
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /var/www
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from www.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 09:08:47 2018] ***
+compiled with version: 5.4.0 20160609 on 30 December 2017 19:29:21
+os: Linux-4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017
+nodename: VM-0-2-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /var/www
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /var/www
+your processes number limit is 3301
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1178c50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 249216 bytes (243 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1178c50 pid: 1992 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1992)
+spawned uWSGI worker 1 (pid: 1091, cores: 2)
+spawned uWSGI worker 2 (pid: 1092, cores: 2)
+Python auto-reloader enabled
+[pid: 1092|app: 0|req: 1/1] 58.23.36.251 () {44 vars in 821 bytes} [Thu Jan 11 09:08:48 2018] GET /borrow/ => generated 1041 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1092|app: 0|req: 2/2] 58.23.36.251 () {44 vars in 807 bytes} [Thu Jan 11 09:08:49 2018] GET /line/?ac=fff => generated 1573 bytes in 494 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1091|app: 0|req: 1/3] 58.247.212.61 () {38 vars in 597 bytes} [Thu Jan 11 09:08:50 2018] GET / => generated 1304 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Internal Server Error: /line/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view home.chapi.chart didn't return an HttpResponse object. It returned None instead.
+[pid: 1091|app: 0|req: 2/4] 58.246.221.74 () {40 vars in 642 bytes} [Thu Jan 11 09:08:52 2018] GET /line/?ac=ddd => generated 48540 bytes in 29 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
